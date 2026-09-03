@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://dgxobb3h47sfy"]
 
+[ext_resource type="PackedScene" uid="uid://ws7p3s7fbpgu" path="res://Ball.tscn" id="1_c6gwx"]
+[ext_resource type="PackedScene" uid="uid://c56lesgbu1vpj" path="res://cannon.tscn" id="2_2dftf"]
+
 [node name="World" type="Node2D" unique_id=2020400776]
+
+[node name="Ball" parent="." unique_id=1762618305 instance=ExtResource("1_c6gwx")]
+
+[node name="Cannon" parent="Ball" unique_id=1686807076 instance=ExtResource("2_2dftf")]

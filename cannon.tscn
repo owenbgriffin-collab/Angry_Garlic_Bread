@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c56lesgbu1vpj"]
+
+[ext_resource type="Script" uid="uid://c7e067mrdehy7" path="res://cannon.gd" id="1_23j6s"]
+[ext_resource type="Texture2D" uid="uid://dxk1mktcvbw6e" path="res://icon.svg" id="2_72ky0"]
+
+[node name="Cannon" type="Node2D" unique_id=1686807076]
+script = ExtResource("1_23j6s")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=1228070866]
+position = Vector2(173, 466)
+texture = ExtResource("2_72ky0")
